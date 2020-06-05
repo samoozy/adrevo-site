@@ -1,0 +1,17 @@
+.parallax {
+    
+    &__image-one {
+        background: url('/assets/images/parallax-one.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 50vh;
+    }
+
+    &__image-two {
+        background: url('/assets/images/parallax-two.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 50vh;
+    }
+
+}

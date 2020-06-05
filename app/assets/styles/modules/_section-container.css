@@ -21,4 +21,8 @@
         margin-bottom: 40px;
     }
 
+    &__mb {
+        margin-bottom: 70px;
+    }
+
 }
