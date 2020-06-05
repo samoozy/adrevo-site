@@ -1,0 +1,19 @@
+.btn {
+    text-decoration: none;
+    border: 1px solid $mainBlack;
+    color: $mainBlack;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    transition: all 0.3s;
+
+    &__submit {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.btn:hover {
+    background-color: $mainBlack;
+    color: #fff;
+}

@@ -1,0 +1,14 @@
+.footer-section{
+    height: 75px;
+    margin-top: 40px;
+    background-color: $mainBlack;
+    text-align: center;
+
+    &__text {
+        color: #fff;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+
+}

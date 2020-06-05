@@ -6,4 +6,17 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    &__space-around {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__space-between {
+        justify-content: space-between;
+    }
+
+    &--col-6 {
+        width: 45% !important;
+    }
 }

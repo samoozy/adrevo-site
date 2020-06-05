@@ -11,13 +11,14 @@
     &__title {
         font-weight: 200;
         font-size: 2.5rem;
-        margin: 20px 0;
+        margin-top: 20px;
     }
 
     &__hr {
-        height: 1px;
+        height: 2px;
         background-color: $lightGray;
         width: 100px;
+        margin-bottom: 40px;
     }
 
 }

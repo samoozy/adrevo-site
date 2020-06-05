@@ -6,4 +6,6 @@
 @import 'modules/_generic-container';
 @import 'modules/_large-hero';
 @import 'modules/_section-container';
-
+@import 'modules/_contact-form';
+@import 'modules/_btn';
+@import 'modules/_footer';

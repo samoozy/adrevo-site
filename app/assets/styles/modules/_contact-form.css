@@ -1,0 +1,29 @@
+.contact-form {
+    &__input-wrapper {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    &__mr {
+        margin-right: 10px;
+    }
+
+    &__ml {
+        margin-left: 10px;
+    }
+
+    &__label {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 200;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    &__input {
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        border: 1px solid $mainGray;
+        width: 100%;
+    }
+}
