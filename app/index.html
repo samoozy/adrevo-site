@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font Noto Sans JP -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
     <title>AdRevo</title>
 </head>
 
@@ -13,7 +22,7 @@
     <header class="header-section">
         <div>
             <div class="site-logo">
-                <img src="" alt="placeholder-logo">
+                <img src="https://via.placeholder.com/120x50" alt="placeholder-logo">
             </div>
         </div>
 
@@ -48,31 +57,39 @@
 
     <!-- Large-hero -->
     <div class="large-hero">
-        <div>
+        <div class="wrapper flex flex__column-center">
             <div class="large-hero__content">
-                <div>
-                    <h1>会社のVision</h1>
-                    <p>「リスクを取る人に、正しい価値を還元する世の中へ」</p>
-                </div>
+                <h1 class="large-hero__title"><i class="fas fa-chevron-right large-hero__icon"></i>Ad Revo</h1>
+                <p class="large-hero__text">「リスクを取る人に、正しい価値を還元する世の中へ」</p>
             </div>
         </div>
     </div>
 
     <!-- About -->
-    <div class="about-section">
-        <div>
-            <div>
-                <h2>About</h2>
+    <div class="section-container">
+        <div class="wrapper">
+            <div class="section-container__title-wrapper">
+                <h2 class="section-container__title">About</h2>
+                <div class="section-container__hr"></div>
             </div>
-            <div>
-                <h3>株式会社Ad Revo</h3>
-                <p>株式会社ロクブンノニはWebメディアの企画・運営・制作をメイン事業とする会社です。ブロックチェーンやe-sportsなど専門性の高いジャンルにおいて、自社で企画・制作したコンテンツをユーザーに向けて提供しています。
-                </p>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="about-image">
+            <div class="flex">
+
+                <div class="generic-container flex flex__column-center">
+                    <h3 class="generic-container__title">株式会社Ad Revo</h3>
+                    <p class="generic-container__text">
+                        株式会社ロクブンノニはWebメディアの企画・運営・制作をメイン事業とする会社です。ブロックチェーンやe-sportsなど専門性の高いジャンルにおいて、自社で企画・制作したコンテンツをユーザーに向けて提供しています。
+                    </p>
+
                 </div>
+
+                <div class="generic-container">
+                    <div>
+                        <div class="generic-container__photo-container">
+                            <img class="generic-container__photo" src="./assets/images/about.jpg" alt="about-image">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

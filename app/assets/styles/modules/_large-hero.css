@@ -1,0 +1,25 @@
+.large-hero {
+    height: 100vh;
+    background: url('/assets/images/large-hero2.jpg') top center no-repeat;
+    background-size: cover;
+
+    &__title {
+        color: #fff;
+        font-weight: 200;
+        font-size: 5rem;
+        letter-spacing: 1rem;
+    }
+
+    &__icon {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    &__text {
+        color: #fff;
+        font-weight: 100;
+        font-size: 1.4rem;
+    }
+    
+}
+
