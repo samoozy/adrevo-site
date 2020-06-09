@@ -9,6 +9,11 @@
         font-size: 0.9rem;
         letter-spacing: 1px;
         font-weight: 200;
+
+        @mixin atMedium {
+            font-size: 0.7rem;
+            letter-spacing: none;
+        }
     }
 
 }

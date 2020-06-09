@@ -1,0 +1,18 @@
+
+@define-mixin atSmall {
+    @media (max-width: 667px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media (max-width: 829px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atLarge {
+    @media (max-width: 1273px) {
+        @mixin-content;
+    }
+}

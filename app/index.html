@@ -21,17 +21,19 @@
     <!-- Header -->
     <header class="header-section">
         <div class="wrapper flex flex__space-between">
-            <h1>Ad <strong>Revo</strong></h1>
+            <div class="logo-icon">
+                <a href="#"><img class="logo-icon__img" src="./assets/images/AdRevo-fixed.png" alt=""></a>
+            </div>
 
             <!-- hamburger menu icon -->
             <div class="menu-icon">
-
+                <div class="menu-icon__hamburger"></div>
             </div>
 
             <!-- header-navbar -->
             <div class="menu-content">
                 <nav>
-                    <ul class="header-section__navbar-list flex">
+                    <ul class="flex header-section__navbar-list">
                         <li>
                             <a href="#">Home</a>
                         </li>
@@ -56,9 +58,10 @@
     <!-- Large-hero -->
     <div class="large-hero">
         <div class="wrapper flex flex__column-center">
-            <div class="large-hero__content">
-                <h1 class="large-hero__title"><i class="fas fa-chevron-right large-hero__icon"></i>Ad
-                    <strong>Revo</strong></h1>
+            <div class="large-hero__content flex--column-at-medium">
+                <div class="large-hero__logo-wrapper">
+                    <img src="./assets/images/AdRevo-fixed.png" alt="">
+                </div>
                 <p class="large-hero__text">「リスクを取る人に、正しい価値を還元する世の中へ」</p>
             </div>
         </div>
@@ -71,10 +74,10 @@
                 <h2 class="section-container__title">About</h2>
                 <div class="section-container__hr"></div>
             </div>
-            <div class="flex">
+            <div class="flex flex--column-at-medium">
 
-                <div class="generic-container generic-container__half flex flex__column-center">
-                    <h3 class="generic-container__title">株式会社Ad Revo</h3>
+                <div class="generic-container generic-container__half flex flex__column">
+                    <h3 class="generic-container__title">株式会社AdRevo</h3>
                     <p class="generic-container__text">
                         動画コンテンツの企画,制作,販売及び配信 、システム及びソフトウェアの開発及び販売、システムに関するコンサルティング及び運用改善業務、マーケティングリサーチ
                     </p>
@@ -143,7 +146,7 @@
                 <div class="section-container__hr"></div>
             </div>
 
-            <div class="flex">
+            <div class="flex flex--column-at-medium-reverse">
                 <!-- googlemap -->
                 <div class="generic-container generic-container__half">
                     <div>
@@ -157,6 +160,7 @@
                         <li class="generic-container__list-item">会社名 : 株式会社AdRevo</li>
                         <li class="generic-container__list-item">会社所在地 : 東京都新宿区西新宿4-34-7 プラティーヌ新宿新都心1502</li>
                         <li class="generic-container__list-item">設立日 : 2020年4月21日</li>
+                        <li class="generic-container__list-item">資本金 : 100万円</li>
                         <li class="generic-container__list-item">事業内容 : 動画コンテンツの企画,制作,販売及び配信
                             、システム及びソフトウェアの開発及び販売、システムに関するコンサルティング及び運用改善業務、マーケティングリサーチ</li
                             class="generic-container__list-item">
@@ -178,7 +182,7 @@
             <!-- contact-form -->
             <div class="contact-form">
                 <form action="">
-                    <div class="flex">
+                    <div class="flex flex--column-at-medium">
                         <div class="contact-form__input-wrapper contact-form__mr">
                             <label class="contact-form__label" for="">メールアドレス</label>
                             <input class="contact-form__input" name="email" type="email">

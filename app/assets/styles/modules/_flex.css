@@ -1,6 +1,16 @@
 .flex {
     display: flex;
 
+    &__column {
+        height: inherit;
+        flex-direction: column;
+        padding-top: 50px;
+
+        @mixin atMedium {
+            padding-top: 0;
+        }
+    }
+
     &__column-center {
         height: inherit;
         flex-direction: column;
@@ -18,5 +28,27 @@
 
     &--col-6 {
         width: 45% !important;
+
+        @mixin atMedium {
+            width: 90% !important;
+        }
+    }
+
+    &--column-at-medium {
+        @mixin atMedium {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    &--column-at-medium-reverse {
+        @mixin atMedium {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

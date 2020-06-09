@@ -1,0 +1,18 @@
+.logo-icon {
+    @mixin atMedium {
+        margin-left: 40px;
+    }
+
+    @mixin atSmall {
+        margin-left: 10px;
+    }
+
+    &__img {
+        height: 45px;
+        border-radius: 6px;
+
+        @mixin atSmall {
+            height: 35px;
+        }
+    }
+}

@@ -1,15 +1,27 @@
 .contact-form {
+    @mixin atMedium {
+        padding: 0 10px;
+    }
+
     &__input-wrapper {
         width: 100%;
         padding: 10px 0;
     }
 
     &__mr {
-        margin-right: 10px;
+        margin-right: 5px;
+
+        @mixin atMedium {
+            margin-right: 0;
+        }
     }
 
     &__ml {
-        margin-left: 10px;
+        margin-left: 5px;
+
+        @mixin atMedium {
+            margin-left: 0;
+        }
     }
 
     &__label {
@@ -18,6 +30,11 @@
         font-weight: 200;
         letter-spacing: 2px;
         margin-bottom: 10px;
+
+        @mixin atMedium {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
     }
 
     &__input {
@@ -25,5 +42,14 @@
         padding: 0.5rem;
         border: 1px solid $mainGray;
         width: 100%;
+
+        @mixin atMedium {
+            font-size: 1rem;
+        }
+
+        @mixin atSmall {
+            font-size: 0.9rem;
+        }
+
     }
 }

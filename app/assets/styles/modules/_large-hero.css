@@ -3,22 +3,38 @@
     background: url('assets/images/large-hero.jpg') top center no-repeat;
     background-size: cover;
 
-    &__title {
-        color: #fff;
-        font-weight: 200;
-        font-size: 5rem;
-        letter-spacing: 1rem;
+    @mixin atSmall {
+        height: 60vh;
     }
 
-    &__icon {
-        color: #fff;
-        font-size: 4rem;
+    &__logo-wrapper {
+
+        img {
+            height: 100px;
+
+            @mixin atLarge {
+                height: 91px;
+            }
+
+            @mixin atSmall {
+                height: 60px;
+            }
+        }
     }
 
     &__text {
+        margin-top: 40px;
         color: #fff;
         font-weight: 100;
         font-size: 1.4rem;
+
+        @mixin atLarge {
+            font-size: 1.2rem;
+        }
+
+        @mixin atSmall {
+            font-size: 0.8rem;
+        }
     }
     
 }
