@@ -1,10 +1,11 @@
 .menu-icon {
     position: fixed;
-    top: 15px;
+    top: 20px;
     right: 20px;
-    height: 34px;
-    width: 40px;
+    height: 27px;
+    width: 30px;
     display: none;
+    cursor: pointer;
 
     @mixin atMedium {
         display: flex;
@@ -24,7 +25,7 @@
         background-color: #fff;
         height: 4px;
         width: 100%;
-        transition: all 0.3s ease-out;
+        transition: all 0.2s ease-out;
         transform-origin: 0 50%;
     }
 

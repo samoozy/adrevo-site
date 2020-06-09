@@ -1,9 +1,14 @@
 .header-section {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 15px 0;
     width: 100%;
+    transition: all 0.2s ease-in;
+
+    &--header-dark {
+        background-color: rgba(0,0,0,0.8);
+    }
 
     &__navbar-list{
         list-style: none;
@@ -18,10 +23,9 @@
             width: 75%;
             display: flex;
             flex-direction: column;
-            background-color: rgba(0,0,0,0.7);
-            justify-content: space-around;
+            background-color: rgba(0,0,0,0.8);
+            justify-content: center;
             align-items: center;
-            padding: 70px 0;
             margin: 0;
         }
 
@@ -30,6 +34,11 @@
 
             @mixin atMedium {
                 padding-left: 0;
+                margin: 30px 0;
+            }
+
+            @mixin atSmall {
+                margin: 20px 0;
             }
         }
 
@@ -43,7 +52,11 @@
             transition: all 0.3s ease-out;
 
             @mixin atMedium {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
+            }
+
+            @mixin atSmall {
+                font-size: 1.1rem;
             }
         }
 

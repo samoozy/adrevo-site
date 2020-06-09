@@ -5,6 +5,10 @@
         background-size: cover;
         background-attachment: fixed;
         height: 50vh;
+
+        @mixin atSmall {
+            height: 30vh;
+        }
     }
 
     &__image-two {
@@ -12,6 +16,10 @@
         background-size: cover;
         background-attachment: fixed;
         height: 50vh;
+
+        @mixin atSmall {
+            height: 30vh;
+        }
     }
 
 }
