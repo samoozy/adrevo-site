@@ -14,24 +14,28 @@
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
     <title>AdRevo</title>
-<link href="styles.75ef753c4244b6863031.css" rel="stylesheet"></head>
+<link href="styles.73e5cbc24444dcbcac21.css" rel="stylesheet"></head>
 
 <body>
 
     <!-- Header -->
     <header class="header-section">
         <div class="wrapper flex flex__space-between">
-            <h1>Ad <strong>Revo</strong></h1>
+            <div class="logo-icon">
+                <a href="#"><img class="logo-icon__img" src="./assets/images/AdRevo-fixed.png" alt=""></a>
+            </div>
 
             <!-- hamburger menu icon -->
             <div class="menu-icon">
-
+                <div class="menu-icon__hamburger-top"></div>
+                <div class="menu-icon__hamburger-middle"></div>
+                <div class="menu-icon__hamburger-bottom"></div>
             </div>
 
             <!-- header-navbar -->
             <div class="menu-content">
                 <nav>
-                    <ul class="header-section__navbar-list flex">
+                    <ul class="flex header-section__navbar-list">
                         <li>
                             <a href="#">Home</a>
                         </li>
@@ -56,9 +60,10 @@
     <!-- Large-hero -->
     <div class="large-hero">
         <div class="wrapper flex flex__column-center">
-            <div class="large-hero__content">
-                <h1 class="large-hero__title"><i class="fas fa-chevron-right large-hero__icon"></i>Ad
-                    <strong>Revo</strong></h1>
+            <div class="large-hero__content flex--column-at-medium">
+                <div class="large-hero__logo-wrapper">
+                    <img src="./assets/images/AdRevo-fixed.png" alt="">
+                </div>
                 <p class="large-hero__text">「リスクを取る人に、正しい価値を還元する世の中へ」</p>
             </div>
         </div>
@@ -71,10 +76,10 @@
                 <h2 class="section-container__title">About</h2>
                 <div class="section-container__hr"></div>
             </div>
-            <div class="flex">
+            <div class="flex flex--column-at-medium">
 
-                <div class="generic-container generic-container__half flex flex__column-center">
-                    <h3 class="generic-container__title">株式会社Ad Revo</h3>
+                <div class="generic-container generic-container__half flex flex__column">
+                    <h3 class="generic-container__title">株式会社AdRevo</h3>
                     <p class="generic-container__text">
                         動画コンテンツの企画,制作,販売及び配信 、システム及びソフトウェアの開発及び販売、システムに関するコンサルティング及び運用改善業務、マーケティングリサーチ
                     </p>
@@ -143,11 +148,13 @@
                 <div class="section-container__hr"></div>
             </div>
 
-            <div class="flex">
+            <div class="flex flex--column-at-medium-reverse">
                 <!-- googlemap -->
                 <div class="generic-container generic-container__half">
-                    <div>
-                        <h1>GOOGLE MAP</h1>
+                    <div class="flex flex__column-center" style="align-items: center;">
+                        <iframe class="section-container__map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d625.5688622626886!2d139.68902997759926!3d35.686055358402044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f32c8a500001%3A0x12d937f05f57f744!2sPlatine%20Shinjuku%20Shintoshin!5e0!3m2!1sen!2sjp!4v1591687922519!5m2!1sen!2sjp"
+                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
 
@@ -157,6 +164,7 @@
                         <li class="generic-container__list-item">会社名 : 株式会社AdRevo</li>
                         <li class="generic-container__list-item">会社所在地 : 東京都新宿区西新宿4-34-7 プラティーヌ新宿新都心1502</li>
                         <li class="generic-container__list-item">設立日 : 2020年4月21日</li>
+                        <li class="generic-container__list-item">資本金 : 100万円</li>
                         <li class="generic-container__list-item">事業内容 : 動画コンテンツの企画,制作,販売及び配信
                             、システム及びソフトウェアの開発及び販売、システムに関するコンサルティング及び運用改善業務、マーケティングリサーチ</li
                             class="generic-container__list-item">
@@ -178,7 +186,7 @@
             <!-- contact-form -->
             <div class="contact-form">
                 <form action="">
-                    <div class="flex">
+                    <div class="flex flex--column-at-medium">
                         <div class="contact-form__input-wrapper contact-form__mr">
                             <label class="contact-form__label" for="">メールアドレス</label>
                             <input class="contact-form__input" name="email" type="email">
@@ -210,7 +218,7 @@
     </footer>
 
 
-    <script src="bundled.js"></script>
-<script type="text/javascript" src="main.75ef753c4244b6863031.js"></script></body>
+
+<script type="text/javascript" src="main.73e5cbc24444dcbcac21.js"></script></body>
 
 </html>
