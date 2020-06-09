@@ -1,0 +1,10 @@
+.menu-content {
+
+    @mixin atMedium {
+        display: none;
+    }
+
+    &--expand {
+        display: block;
+    }
+}
