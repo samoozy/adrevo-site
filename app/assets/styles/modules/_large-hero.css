@@ -5,6 +5,8 @@
 
     @mixin atSmall {
         height: 70vh;
+        background: url('assets/images/large-hero-mobile.jpg') top center no-repeat;
+        background-size: cover;
     }
 
     &__logo-wrapper {
