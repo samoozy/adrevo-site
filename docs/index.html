@@ -14,7 +14,7 @@
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
     <title>AdRevo</title>
-<link href="styles.3538eb02a5cfe936bf6e.css" rel="stylesheet"></head>
+<link href="styles.27c03901aef1b68412fd.css" rel="stylesheet"></head>
 
 <body>
 
@@ -80,12 +80,21 @@
 
                 <div class="generic-container generic-container__half flex flex__column">
                     <h3 class="generic-container__title">株式会社AdRevo</h3>
-                    <p class="generic-container__text">
-                        私達は『リスクを取る人に、正しい価値を還元する世の中へ』をVisionに捧げています。
-                        世の中は時代も移り変わり、『個』が尊重される時代となっています。しかし、本当の意味で『個』の時代になっているのでしょうか？
-                        個が発信しやすい時代にはなって、便利にはなっていますがプラットフォーマーによる中抜きが非常に大きくなっています。
-                        我々は、本当の意味で個が尊重され、正しく価値を還元する世界を創るための集団です。
-                    </p>
+                    <div class="generic-container__text">
+                        <p>
+                            私達は『リスクを取る人に、正しい価値を還元する世の中へ』をVisionに捧げています。
+                            世の中は、『個』が尊重される時代となっています。
+                        </p>
+                        <p>
+                            しかし、本当の意味で『個』の時代となっているのでしょうか？
+                        </p>
+                        <p>
+                            個が発信できる便利な世の中にはなっていますがプラットフォーマーによる中抜き問題が大きくなっています。
+                        </p>
+                        <p>
+                            我々は、本当の意味で個が尊重され、正しい価値を還元する世界を創るための集団です。
+                        </p>
+                    </div>
 
                 </div>
 
@@ -168,6 +177,7 @@
                         <li class="generic-container__list-item">会社所在地 : 東京都新宿区西新宿4-34-7 プラティーヌ新宿新都心1502</li>
                         <li class="generic-container__list-item">設立日 : 2020年4月21日</li>
                         <li class="generic-container__list-item">資本金 : 100万円</li>
+                        <li class="generic-container__list-item">代表取締役 : 北川結輝</li>
                         <li class="generic-container__list-item">事業内容 : 動画コンテンツの企画,制作,販売及び配信
                             、システム及びソフトウェアの開発及び販売、システムに関するコンサルティング及び運用改善業務、マーケティングリサーチ</li
                             class="generic-container__list-item">
@@ -187,27 +197,27 @@
 
             <!-- contact-form -->
             <div class="contact-form">
-                <form action="">
+                <form action="contactform.php" method="POST">
                     <div class="flex flex--column-at-medium">
                         <div class="contact-form__input-wrapper contact-form__mr">
-                            <label class="contact-form__label" for="">メールアドレス</label>
-                            <input class="contact-form__input" name="email" type="email">
+                            <label class="contact-form__label" for="email">メールアドレス</label>
+                            <input class="contact-form__input" name="email" type="email" required>
                         </div>
                         <div class="contact-form__input-wrapper contact-form__ml">
-                            <label class="contact-form__label" for="">お名前</label>
-                            <input class="contact-form__input" name="name" type="text">
+                            <label class="contact-form__label" for="name">お名前</label>
+                            <input class="contact-form__input" name="name" type="text" required>
                         </div>
                     </div>
                     <div class="contact-form__input-wrapper">
-                        <label class="contact-form__label" for="">題名</label>
-                        <input class="contact-form__input" name="subject" type="text">
+                        <label class="contact-form__label" for="subject">題名</label>
+                        <input class="contact-form__input" name="subject" type="text" required>
                     </div>
                     <div class="contact-form__input-wrapper">
-                        <label class="contact-form__label" for="">お問い合わせ内容</label>
-                        <textarea class="contact-form__input" name="message" id="" cols="30" rows="10"></textarea>
+                        <label class="contact-form__label" for="message">お問い合わせ内容</label>
+                        <textarea class="contact-form__input" name="message" cols="30" rows="10"></textarea required>
                     </div>
                     <div>
-                        <a class="btn btn__submit" name="submit" type="submit" href="#">送信</a>
+                        <button class="btn btn__submit" name="submit" type="submit">送信</button>
                     </div>
                 </form>
             </div>
@@ -221,6 +231,6 @@
 
 
 
-<script type="text/javascript" src="main.3538eb02a5cfe936bf6e.js"></script></body>
+<script type="text/javascript" src="main.27c03901aef1b68412fd.js"></script></body>
 
 </html>

@@ -10,6 +10,8 @@
     &__submit {
         padding-left: 50px;
         padding-right: 50px;
+        background-color: #fff;
+        cursor: pointer;
     }
 }
 
